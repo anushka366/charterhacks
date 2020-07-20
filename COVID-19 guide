@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		/* to center all of the images*/
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		/*how the drop down button should look*/
+		.dropbtn {
+			background-color: #21BBBA;
+			color: white;
+			padding: 15px;
+			font-size: 15px;
+			border: none;
+		}
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			z-index: 1;
+		}
+
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+
+		.dropdown-content a:hover {
+			background-color: #ddd;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		.dropdown:hover .dropbtn {
+			background-color: #178C8B;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="dropdown">
+		<button class="dropbtn">Frequently-Asked Vocabulary</button>
+  <div class="dropdown-content">
+    <a >Virus - a type of germ that can make you sick when they enter your body. </a>
+    <a >Cells - small living things that make up your body. Every living thing is made up of cells. </a>
+    <a>Coronavirus - a type of virus with a spiky outer layer that makes it easier to stick to cells.  </a>
+    <a>COVID-19 - the current version of the coronavirus that is causing this pandemic. The 'CO' stands for 'corona,' the 'VI' stands for 'virus,' the 'D' stands for 'disease.' The 19 refers to the year of this type of coronavirus, 2019. </a>
+    <a>Pandemic - When referring to a disease, it is the outbreak of a disease that is affecting a large amount of people world-wide. </a>
+    <a>Quarantine - it refers to isolating, or staying alone, from others to avoid the spread of disease. </a>
+    <a>Contagion - the spreading of disease through close contact. </a>
+    <a>Vaccine - a creation that acts like a disease on a smaller scale so that your body builds strength and is able to remain immune to the real virus. </a>
+    <a>Immune - resistant to a particular infection. </a>
+  </div>
+  </div>
+</div>
+</body>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<div class="jumbotron text-center">
+  <h1>COVID-19 Guide for Kids!</h1>
+  <p><i>As the world enters an unknown future, the children of healthcare workers are at their most vulnerable. These kids must understand the complexities of COVID-19 and its relationship with the healthcare worker(s) in their family. Have the child of the healthcare worker explore this site!  </i> <p>
+  <img src="https://uknow.uky.edu/sites/default/files/styles/uknow_story_image/public/GettyImages-1207650868.jpg" alt="Child wearing face mask" width="450" height="300">
+
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 style="text-align:center" >The Situation</h3>
+      <p style="text-align:center">Everything is different now. Summer break started months earlier than usual. You don't eat dinner at restaurants or hang out with your friends as often as you used to. Your parent(s) might be working until late at their medical center. The phrases "COVID-19" and "Coronavirus" are always being used in your house. What's going on might seem very confusing, but today you will go on an interactive journey to understand the situation at hand. Start by watching the video below, then take a look at the image below to see how the spread of COVID can be reduced with social distancing and quarantine!    
+      </p>
+      <iframe width="350" height="250" src="https://www.youtube.com/embed/GoXxmzKdick" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+      <style>
+      iframe {
+   display: block;
+   margin: 0 auto;
+} 
+</style>
+      <img src="https://s01.sgp1.cdn.digitaloceanspaces.com/inline/wxxynqbitj-1588330832.png" alt="How COVID spreads" width="300" height="400">
+      <p style="text-align:center">
+      As a child of a healthcare worker, remember to keep in mind how important the role of your parent is during this wild time. They might not be around as much because their ability to help people is needed now more than ever. It's natural to be scared for them. Your parent must feel just as scared as you feel. Try to talk out your emotions with them. One of the best things you can do for your parent is to keep clean and free of germs so that you can reduce their worry! Click on the video below to learn how you can be safe during this pandemic!
+      <p>
+          </p>
+       <iframe width="350" height="250" src="https://www.youtube.com/embed/arN3ZfxcNf4?start=13" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    <div class="col-sm-4">
+      <h3 style="text-align:center">The Procedure</h3>
+      <p style="text-align:center">Staying clean and preventing the spread of disease is the greatest way to stay safe during COVID-19. Play the hygeine choice game below to find the best way to stay clean. 
+        <hr noshade>
+      </p>
+      
+      <p style="text-align:center"> <i> HOW TO PLAY: click the option under the question that you think is the right answer. </i> </p> 
+      
+          
+      <p><b> 
+        1. You just sneezed into your arm. Do you wash your hands?</b></p>
+        <p id="cor1" onclick="myFunction()">a) Yes.</p>
+        <p id="fal1" onclick="myFunction()"">b) No.</p>
+        
+<script>
+function myFunction() {
+  document.getElementById("cor1").innerHTML = "✔ Yes is Correct! Always wash your hands after sneezing or coughing!";
+   document.getElementById("fal1").innerHTML = "No is Wrong!";
+}
+</script>
+<p><b> 
+  2. You are at the sink. Approximately how long should you scrub your hands for?</b> </p>
+        <p id="fal2" onclick="myFunction2()">a) 10 seconds.</p>
+        <p id="cor2" onclick="myFunction2()">b) 20 seconds.</p>
+<script>
+function myFunction2() {
+  document.getElementById("cor2").innerHTML = "✔ 20 seconds is Correct! Wash thoroughly with soap and water for at least 20 seconds. Sing the 'Happy Birthday' song twice as a way of checking.";
+   document.getElementById("fal2").innerHTML = "10 seconds is Wrong!"
+}
+</script>
+<p><b>  3. You just touched a door handle that many other people have touched. What do you do? </b></p>
+        <p id="fal3" onclick="myFunction3()">a) Use hand sanitizer.</p>
+        <p id="cor3" onclick="myFunction3()">b) Wash my hands.</p>
+        <p id="fal4" onclick="myFunction3()">c) Either hand sanitize or wash my hands since they are the same.</p>
+<script>
+function myFunction3() {
+  document.getElementById("cor3").innerHTML = "✔ Ideally, washing your hands is best!";
+   document.getElementById("fal3").innerHTML = "Hand sanitizing is acceptable when there is no access to soap and water but hand washing is preferred."
+   document.getElementById("fal4").innerHTML = "Hand sanitizer is not the same as washing with soap and water!"
+}
+</script>
+<p> <b>
+  4. Should you wear a mask when near other people?</b> </p>
+        <p id="fal5" onclick="myFunction4()">a) No, You don't need to wear a mask if you aren't feeling sick.  </p>
+        <p id="cor4" onclick="myFunction4()">b) Yes.</p>
+<script>
+function myFunction4() {
+  document.getElementById("cor4").innerHTML = "✔ Always wear a mask when near people you haven't been quarantined with! Masks greatly reduce the chance of picking up or spreading germs from sneezes and coughs.";
+   document.getElementById("fal5").innerHTML = "Even if you don't feel sick, still wear a mask! That way, you won't pick up germs from other people."
+}
+   </script>
+<p><i> Liked the COVID choice game? Click below to play a similar game provided by the WHO (World Health Organization) </i> <p>
+<style>
+a:link, a:visited {
+  background-color: #21BBBA;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: grey;
+}
+</style>
+</head>
+<body>
+
+<a href="https://freerice.com/categories/covid-19" target="_blank">COVID-19 Trivia Game</a>
+</body>
+<hr noshade>
+<p style="text-align:center"> Keep these rules in mind to maximize your chance of killing germs and reduce the spread of contagion! Remember: avoid touching your face, keep at least 6 feet of distance between you and other people when outside, and follow safety precautions at all times! As a child of a healthcare worker, your parent is on the frontlines and could possibly bring contagion with them. If they ask you to stay with another relative, understand that they only want you to stay healthy! If you want to learn more facts about COVID-19, grab and trusted adult and click on the image below to be redirected to the official Center for Disease Control's (CDC) website.
+  </p>
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html?s_cid=bb-coronavirus-2019-ncov-NCIRD" title="image of SARS-CoV-2"><img src="https://www.canada.ca/content/dam/news/carousel/20200313-en-1170x347.jpg" style="width:300px; height:100px; border:0px;" alt="image of Coronavirus Disease 2019 (COVID-19)"/></a>
+<p> 
+    </div>
+    <div class="col-sm-4">
+      <h3 style="text-align:center">The Future</h3>
+      <p style="text-align:center">At the moment, the future is unknown. By staying clean and reducing close contact with other people, it can be ensured that COVID-19 won't spread further. Watch the video below with a trusted adult to understand what the future might entail. </p>
+        <iframe width="350" height="250" src="https://www.youtube.com/embed/Qi0edf_nJDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>
+          </p>
+         <p style="text-align:center">The healthcare worker in your family has a big task at hand. They are the ones taking care of patients and are very close to contagion. Try to help around the house, go on family walks outside, and establish a routine. As for school, chances of going back in the fall are getting lower as cases in the US are not yet stabilized and decreasing. Around the world, countries are opening up their schools only after a  significant decrease in cases. However, the US has yet to see a large drop in cases. In the case of virtual schooling, make sure you are prepared to learn just as much as you would in person. Remember:
+           <ul>
+              <li>Pay attention to the teacher</li>
+              <li>Do your homework</li>
+              <li>Ask questions if you don't understand anything</li>
+          </ul> 
+         </p>
+         <p style="text-align:center"> With everything that's going on, it's okay to be stressed. Just remember to keep focused on what matters most to you. Support your parents if they are stressed with work. Talk to them if you are nervous about the future. Be as safe and clean as possible to maximize your efforts against COVID-19~
+           </p>
+          <hr noshade>
+          <p><b> Resources for Parents </b></p>
+          <p><a href="https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/kids-covid-19/art-20482508">How to talk to child about COVID</a></p>
+          <p><a href="https://www.baystatehealth.org/-/media/files/bhy/coronavirus/i-am-a-health-care-worker-answering-my-childs-questions-about--going-to-workbhy.pdf?la=en">Answering questions about your job</a></p>
+    </div>
+  </div>
+</div>
